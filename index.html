@@ -6,13 +6,14 @@
     <title>MOIZ HUSSAIN</title>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="./assets/style.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 </head>
 <body>
     <!-- header -->
      <header class="l-header">
         <nav class="nav bd-grid">
             <div>
-                <a href="#" class="nav_logo">Moiz</a>
+                <a href="#" class="nav_logo">Moiz Hussain</a>
             </div>
             <div class="nav_menu" id="nav-menu">
                 <ul class="nav_list">
@@ -35,16 +36,16 @@
         
         <section class="home bd-grid" id="home">
             <div class="home_data">
-                <h1 class="home_title">Hi,<br>I'm <span class="home_title-color">Moiz Hussain</span><br>Web Developer</h1>
+                <h1 class="home_title">Hi,<br>I'm <span class="home_title-color">Moiz Hussain</span><br>Full Stack Web Developer</h1>
                 <a href="#contact" class="button">Contact</a>
             </div>
             <div class="home_social">
-                <a href="https://www.linkedin.com/in/moiz-hussain-058b11328" class="home_social-icon"><i class='bx bxl-linkedin'></i></a>
-                <a href="#" class="home_social-icon"><i class='bx bxl-behance' ></i></a>
-                <a href="https://github.com/moizhussain23" class="home_social-icon"><i class='bx bxl-github' ></i></a>
+                <a href="https://www.linkedin.com/in/moiz-hussain-058b11328" class="home_social-icon" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://www.instagram.com/23._.moiz?igsh=OTRtdWR5bTgwMTJr" class="home_social-icon" target="_blank"><i class='bx bxl-instagram' ></i></a>
+                <a href="https://github.com/moizhussain23" class="home_social-icon" target="_blank"><i class='bx bxl-github' ></i></a>
             </div>
             <div class="home_img">
-                <img src="./assets/images/bluephoto1.png" alt="">
+                <img src="./assets/images/moiz-photo.png" alt="Moiz-photo">
             </div>
         </section>
 
@@ -55,11 +56,11 @@
 
             <div class="about_container bd-grid" id="about">
                 <div class="about_img">
-                    <img src="./assets/images/greybg1.jpg" alt="">
+                    <img src="./assets/images/moiz-bg.png" alt="Moiz-photo">
                 </div>
                 <div>
                     <h2 class="about_subtitle">I'm Moiz Hussain</h2>
-                    <p class="about_text">Skilled Web Developer with expertise in front-end and back-end technologies. Proficient in HTML, CSS, JavaScript, React, and Node.js. Committed to delivering responsive, user-friendly websites and applications. Meeting deadlines and ensuring high-quality results.</p>
+                    <p class="about_text">Strong proficiency in HTML, CSS, JavaScript, React, Node.js, Express.js, RESTful APIs, and MySQL characterizes this Full Stack Web Developer.  competent in both front-end and back-end development, with an emphasis on building web apps that are user-friendly, scalable, and responsive.  competent in Postman testing, API integration, and authentication (JWT, OAuth).  devoted to producing timely, high-quality solutions, optimizing performance, and writing clear, maintainable code.</p>
                 </div>
             </div>
         </section>
@@ -72,51 +73,53 @@
             <div class="skills_container bd-grid">
                 <div>
                     <h2 class="skills-subtitle">Professional Skills</h2>
-                    <p class="skills_text">Learning a coding language like has significantly enhanced my skills in various ways. It boosted my problem-solving abilities, as coding often involves breaking down complex problems into smaller, manageable tasks. It made me think more logically and develop step-by-step solutions.</p>
+                    <p class="skills_text">Learning programming languages has made me a lot better at what I do.  By teaching me how to break down big problems into smaller, easier-to-handle tasks, it has made me better at solving problems.  It has also helped me think more logically, which has made it easier for me to tackle problems in a systematic way and come up with good step-by-step solutions.</p>
                 
                     <div class="skills_data">
                         <div class="skills_names">
-                            <i class='bx bxl-html5 skills_icon'></i>
-                            <span class="skills_name">HTMLS</span>
+                            <i class='bxr  bxl-tabsskills_icon'></i>
+                            <img src="./assets/images/icon/tabs.png" class="bxr skills_icon"> 
+                            <span class="skills_name">FRONTEND</span>
                         </div>
                         <div>
                             <span class="skills_percentage">93%</span>
                         </div>
-                        <div class="skills_bar skills_html"></div>
+                        <div class="skills_bar skills_frontend"></div>
                     </div>
                     <div class="skills_data">
                         <div class="skills_names">
-                            <i class='bx bxl-css3 skills_icon' ></i>
-                            <span class="skills_name">CSS</span>
+
+                            <img src="./assets/images/icon/server.png" class="bxr skills_icon"> 
+                            <span class="skills_name">BACKEND</span>
                         </div>
                         <div>
-                            <span class="skills_percentage">89%</span>
+                            <span class="skills_percentage">85%</span>
                         </div>
-                        <div class="skills_bar skills_css"></div>
+                        <div class="skills_bar skills_backend"></div>
                     </div>
                     <div class="skills_data">
                         <div class="skills_names">
-                            <i class='bx bxl-javascript skills_icon' ></i>
-                            <span class="skills_name">JAVASCRIPT</span>
+                            <img src="./assets/images/icon/database.png" class="bxr skills_icon"> 
+                            <span class="skills_name">DATABASE</span>
                         </div>
                         <div>
-                            <span class="skills_percentage">20%</span>
+                            <span class="skills_percentage">90%</span>
                         </div>
-                        <div class="skills_bar skills_js"></div>
+                        <div class="skills_bar skills_database"></div>
                     </div>
                     <div class="skills_data">
                         <div class="skills_names">
-                            <i class='bx bxs-paint skills_icon'></i>
-                            <span class="skills_name">UI/UX</span>
+                            <img src="./assets/images/icon/cog.png" class="bxr skills_icon"> 
+                            <span class="skills_name">API</span>
                         </div>
                         <div>
                             <span class="skills_percentage">75%</span>
                         </div>
-                        <div class="skills_bar skills_ux"></div>
+                        <div class="skills_bar skills_api"></div>
                     </div>
                 </div>
                 <div class="skills_img">
-                    <img src="./assets/images/skills.png" alt="">
+                    <img src="./assets/images/Tech Stack.png" alt="Skill_set">
                 </div>    
             </div>
         </section>
@@ -128,20 +131,12 @@
 
             <div class="work_container bd-grid">
                 <div class="work_img">
-                    <img src="./assets/images/work1.jpg" alt="">
-                    <a href="#"><h2 class="work_title">Project 1</h2></a> 
+                    <img src="./assets/images/works/Qr.png" alt="Project 1 image" class="work_images">
+                    <a href="https://github.com/moizhussain23/Comprehensive-System-for-Managing-Patient-Data.git" target="_blank"><h2 class="work_title">Qr Based Paitent Data Managment System</h2></a> 
                 </div>
                 <div class="work_img">
-                    <img src="./assets/images/work1.jpg" alt="">
-                    <a href="#"><h2 class="work_title">Project 2</h2></a> 
-                </div>
-                <div class="work_img">
-                    <img src="./assets/images/work1.jpg" alt="">
-                    <a href="#"><h2 class="work_title">Project 3</h2></a> 
-                </div>
-                <div class="work_img">
-                    <img src="./assets/images/work1.jpg" alt="">
-                    <a href="#"><h2 class="work_title">Project 4</h2></a> 
+                    <img src="./assets/images/works/Interview.jpg" alt="Project 2 image" class="work_images">
+                    <a href="#"><h2 class="work_title">AI Powered Interview Platform</h2></a> 
                 </div>
             </div>
         </section>
@@ -152,12 +147,13 @@
             <h2 class="section-title">Contact</h2>
             
             <div class="contact_container bd-grid" id="contact">
-                <form action="" class="contact_form">
-                    <input type="text" class="contact_input" placeholder="Name">
-                    <input type="mail" class="contact_input" placeholder="Email">
-                    <textarea name="" id="" cols="0" rows="10" class="contact_input"></textarea>
-                    <input type="button" class="contact_button button" value="Enter">
+                <form id="contact-form" class="contact_form">
+                    <input type="text" name="from_name" class="contact_input" placeholder="Name" required>
+                    <input type="email" name="from_email" class="contact_input" placeholder="Email" required>
+                    <textarea name="message" cols="0" rows="10" class="contact_input" placeholder="Your message..." required></textarea>
+                    <input type="submit" class="contact_button button" value="Send Message">
                 </form>
+                <div id="form-status" class="form-status"></div>
             </div>
         </section>
 
