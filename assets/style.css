@@ -413,8 +413,8 @@ img{
 /* mobile specific styles */
 @media screen and (max-width:767px) {
     .work_images{
-        max-height: 150px;
-        width: 90%;
+        max-height: 200px;
+        width: 80%;
         margin: 0 auto;
     }
 }
