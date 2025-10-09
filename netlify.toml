@@ -6,7 +6,6 @@
   NODE_VERSION = "20"
   # Leave NEXT_PUBLIC_BASE_PATH empty for Netlify
   NEXT_PUBLIC_BASE_PATH = ""
-
-[[plugins]]
-  package = "@netlify/plugin-nextjs"
+  # Disable Netlify Next.js runtime (we are using static export)
+  NETLIFY_NEXT_PLUGIN_SKIP = "true"
 
